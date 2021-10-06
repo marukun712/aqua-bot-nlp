@@ -409,7 +409,3 @@ function doRequest(req, res) {
     res.write('Hello World\n');
     res.end();
 }
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
